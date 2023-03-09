@@ -56,7 +56,7 @@ class Customize(object):
 
 class Configs(object):
     # admins id
-    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '5601313788').split()]
+    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '6010304291').split()]
 
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
